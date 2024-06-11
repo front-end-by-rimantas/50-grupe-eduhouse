@@ -1,0 +1,19 @@
+body {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+aside {
+    background-color: pink;
+    width: 15%;
+    float: left;
+    height: 800px;
+}
+
+main {
+    background-color: aqua;
+    width: 85%;
+    float: left;
+    height: 800px;
+}
