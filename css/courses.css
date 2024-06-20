@@ -1,0 +1,42 @@
+.course-list {
+    display: flex;
+    gap: 20px;
+}
+.course-list > .course {
+    width: 100%;
+    padding: 20px 30px;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.course > .details {
+    display: flex;
+    justify-content: space-between;
+}
+.course .date {
+    color: #333;
+}
+.course .date::before {
+    content: 'Start: ';
+    color: #36f;
+}
+.course span {
+}
+.course .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.course > .title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.course > .learn {
+    font-weight: bold;
+}
+.course > .desc {
+}
+.course > .progress-bar {
+}
