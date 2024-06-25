@@ -83,6 +83,19 @@
     background-color: var(--color1);
     border-radius: inherit;
     position: relative;
+    animation-duration: 2s;
+}
+.progress-bar .bar.bar-20 {
+    width: 20%;
+    animation-name: loading-20;
+}
+.progress-bar .bar.bar-50 {
+    width: 50%;
+    animation-name: loading-50;
+}
+.progress-bar .bar.bar-90 {
+    width: 90%;
+    animation-name: loading-90;
 }
 .progress-bar .bar::after {
     content: '';
@@ -100,4 +113,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@keyframes loading-20 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+@keyframes loading-50 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes loading-90 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
 }
